@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kosh</string>
+    <string name="logo_description">Kosh logo</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to Kosh</string>
+    <string name="onboarding_body">Scan paper documents, tidy them up and combine pages into a single PDF.</string>
+    <string name="onboarding_privacy">Everything happens on your device. Your documents are never uploaded, and Kosh has no internet permission.</string>
+    <string name="onboarding_continue">Get started</string>
+
+    <!-- Home -->
+    <string name="scan_document">Scan Document</string>
+    <string name="import_images">Import Images</string>
+    <string name="scan_not_ready">Camera scanning isn\'t available in this build yet. You can import images now.</string>
+    <string name="menu_more">More options</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About Kosh</string>
+    <string name="recent_scans">Recent Scans</string>
+    <string name="recent_empty_title">No scans yet</string>
+    <string name="recent_empty_body">PDFs you create will appear here. Start by scanning with the camera or importing images.</string>
+    <string name="draft_in_progress">Draft in progress</string>
+    <string name="draft_continue">Continue</string>
+    <string name="importing">Importing…</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Pages</string>
+    <string name="back">Back</string>
+    <string name="document_name">Document name</string>
+    <string name="add_pages">Add pages</string>
+    <string name="discard_draft">Discard draft</string>
+    <string name="discard_draft_title">Discard this draft?</string>
+    <string name="discard_draft_body">All pages in this draft will be removed from Kosh. Your original photos are not affected.</string>
+    <string name="discard">Discard</string>
+    <string name="cancel">Cancel</string>
+    <string name="page_number">Page %1$d</string>
+
+    <!-- Import messages -->
+    <string name="import_failed_all">Couldn\'t import the selected images. They may be unsupported, corrupt or too large.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_storage">Storage</string>
+    <string name="settings_clear_drafts">Clear temporary scan drafts</string>
+    <string name="settings_clear_drafts_hint">Removes unfinished drafts stored inside Kosh. Exported PDFs are never deleted.</string>
+    <string name="clear_drafts_title">Clear drafts?</string>
+    <string name="clear_drafts_body">Unfinished scan drafts will be permanently removed.</string>
+    <string name="clear">Clear</string>
+    <string name="drafts_cleared">Drafts cleared</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="privacy_body">Kosh processes everything on your device. Images you import are copied into Kosh\'s private storage as temporary drafts, and your notes are stored only on this device. To list the PDFs on your device, Kosh asks for access to all files; it only reads PDFs you open. Nothing is uploaded, and the app has no internet permission, analytics or ads.</string>
+
+    <!-- About -->
+    <string name="about_title">About Kosh</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_body">A private, offline document scanner.</string>
+    <string name="ok">OK</string>
+
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_scanner">Scanner</string>
+
+    <!-- PDF list (Home tab) -->
+    <string name="pdfs_title">PDFs</string>
+    <string name="pdfs_refresh">Refresh</string>
+    <string name="pdfs_open_file">Open a file</string>
+    <string name="pdfs_scanning">Looking for PDF, Word, Excel and PowerPoint files…</string>
+    <string name="pdfs_empty_title">No files found</string>
+    <string name="pdfs_empty_body">Kosh didn\'t find any PDF, Word, Excel or PowerPoint files on this device\'s main storage.</string>
+    <string name="pdfs_error">Couldn\'t read your files. Try refreshing.</string>
+    <string name="pdfs_unknown_folder">Storage</string>
+    <string name="access_title">Allow access to your files</string>
+    <string name="access_body">Kosh needs access to all files to list the PDFs stored on your device. Files are read on-device only and are never uploaded.</string>
+    <string name="access_allow">Allow access</string>
+    <string name="access_alternative">Open a single PDF instead</string>
+    <string name="pdf_file_meta">%1$s · %2$s</string>
+
+    <!-- Reader -->
+    <string name="reader_opening">Opening PDF…</string>
+    <string name="reader_back">Back</string>
+    <string name="reader_more">More options</string>
+    <string name="reader_share">Share</string>
+    <string name="reader_info">Document info</string>
+    <string name="reader_fit_width">Fit to width</string>
+    <string name="reader_fit_page">Fit to page</string>
+    <string name="reader_prev">Previous page</string>
+    <string name="reader_next">Next page</string>
+    <string name="reader_go_to_page">Go to page</string>
+    <string name="reader_page_counter">%1$d / %2$d</string>
+    <string name="reader_page_counter_desc">Page %1$d of %2$d</string>
+    <string name="reader_page_label">Page %1$d</string>
+    <string name="reader_page_failed">Couldn\'t display page %1$d</string>
+    <string name="reader_jump_title">Go to page</string>
+    <string name="reader_jump_label">Page number (1–%1$d)</string>
+    <string name="reader_jump_invalid">Enter a number from 1 to %1$d</string>
+    <string name="reader_jump_go">Go</string>
+    <string name="reader_share_failed">This file can\'t be shared from here.</string>
+    <string name="reader_back_to_files">Back to files</string>
+    <string name="reader_try_again">Try again</string>
+    <string name="error_not_found">This file can\'t be found. It may have been moved or deleted.</string>
+    <string name="error_access_denied">Kosh no longer has permission to open this file.</string>
+    <string name="error_password">This PDF is password protected. Unlock it with the Decrypt PDF tool first.</string>
+    <string name="error_corrupt">This PDF looks damaged and can\'t be opened.</string>
+    <string name="error_empty">This PDF has no pages.</string>
+    <string name="error_unsupported">This file can\'t be displayed.</string>
+    <string name="info_title">Document info</string>
+    <string name="info_file_name">File name</string>
+    <string name="info_pages">Pages</string>
+    <string name="info_size">File size</string>
+    <string name="info_current_page">Current page</string>
+    <string name="info_not_available">Not available</string>
+
+
+    <!-- PDF actions and folders -->
+    <string name="tab_all">All</string>
+    <string name="tab_folders">Folders</string>
+    <string name="folder_root">Internal storage</string>
+    <string name="folder_expand">Expand folder</string>
+    <string name="folder_collapse">Collapse folder</string>
+    <string name="action_share">Share</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="rename_title">Rename PDF</string>
+    <string name="rename_label">File name</string>
+    <string name="rename_confirm">Rename</string>
+    <string name="rename_invalid">Enter a valid file name. These characters aren\'t allowed: / : * ? &lt; &gt; |</string>
+    <string name="rename_exists">A file with this name already exists in this folder.</string>
+    <string name="rename_failed">Couldn\'t rename this file. It may have been moved or deleted.</string>
+    <string name="delete_title">Delete this PDF?</string>
+    <string name="delete_body">\"%1$s\" will be permanently deleted from your device. This can\'t be undone.</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="delete_failed">Couldn\'t delete this file.</string>
+    <string name="msg_renamed">Renamed to %1$s</string>
+    <string name="msg_deleted">Deleted %1$s</string>
+    <string name="action_share_desc">Share %1$s</string>
+    <string name="action_rename_desc">Rename %1$s</string>
+    <string name="action_delete_desc">Delete %1$s</string>
+    <plurals name="file_count">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <string name="search_files">Search files</string>
+    <string name="search_hint">Search by name or folder</string>
+    <string name="search_close">Close search</string>
+    <string name="search_clear">Clear</string>
+    <string name="search_no_results">No files match \'%1$s\'</string>
+    <string name="read_aloud">Read aloud</string>
+    <string name="read_start">Read</string>
+    <string name="read_pause">Pause</string>
+    <string name="read_resume">Resume</string>
+    <string name="read_stop">Stop reading</string>
+    <string name="read_speed">Speed</string>
+    <string name="read_speed_value">Speed %1$s</string>
+    <string name="read_voice">Voice</string>
+    <string name="read_loading">Loading voices…</string>
+    <string name="read_no_voices">No text-to-speech voice is installed on this phone. Install or enable one (for example Speech Services by Google) in the phone\'s text-to-speech settings.</string>
+    <string name="read_open_settings">Open text-to-speech settings</string>
+    <string name="read_nothing">There is nothing to read in this note</string>
+    <string name="action_save_as_pdf">Save as PDF</string>
+    <string name="office_converting_title">Converting…</string>
+    <string name="office_converting_body">Preparing %1$s</string>
+    <string name="office_convert_failed">Couldn\'t convert %1$s</string>
+    <string name="office_saved_pdf">Saved %1$s next to the original</string>
+    <plurals name="pdf_count">
+        <item quantity="one">%d PDF</item>
+        <item quantity="other">%d PDFs</item>
+    </plurals>
+
+
+    <!-- Notes -->
+    <string name="tab_notes">Notes</string>
+    <string name="notes_title">Notes</string>
+    <string name="notes_archive">Archive</string>
+    <string name="notes_trash">Trash</string>
+    <string name="notes_search">Search notes</string>
+    <string name="notes_search_hint">Search titles and text</string>
+    <string name="notes_search_close">Close search</string>
+    <string name="notes_new">New note</string>
+    <string name="notes_sort">Sort by</string>
+    <string name="notes_sort_updated">Last modified</string>
+    <string name="notes_sort_created">Date created</string>
+    <string name="notes_sort_title">Title</string>
+    <string name="notes_sort_ascending">Ascending order</string>
+    <string name="notes_sort_done">Done</string>
+    <string name="notes_view_grid">Grid view</string>
+    <string name="notes_view_list">List view</string>
+    <string name="notes_section_pinned">Pinned</string>
+    <string name="notes_section_others">Others</string>
+    <string name="notes_untitled">Untitled note</string>
+    <string name="notes_empty_title">No notes yet</string>
+    <string name="notes_empty_body">Write down ideas, lists and reminders. Everything stays on this device.</string>
+    <string name="notes_empty_action">Create your first note</string>
+    <string name="notes_empty_search">No notes match \"%1$s\"</string>
+    <string name="notes_empty_archive">Archive is empty</string>
+    <string name="notes_empty_trash">Trash is empty</string>
+    <string name="notes_back">Back to notes</string>
+    <string name="note_more">More actions for %1$s</string>
+    <string name="note_pin">Pin</string>
+    <string name="note_unpin">Unpin</string>
+    <string name="note_pinned_indicator">Pinned</string>
+    <string name="note_archive">Archive</string>
+    <string name="note_unarchive">Unarchive</string>
+    <string name="note_duplicate">Duplicate</string>
+    <string name="note_move_to_trash">Move to Trash</string>
+    <string name="note_restore">Restore</string>
+    <string name="note_delete_forever">Delete permanently</string>
+    <string name="note_delete_forever_title">Delete this note permanently?</string>
+    <string name="note_delete_forever_body">This note will be deleted from your device and can\'t be recovered.</string>
+    <string name="note_trashed">Moved to Trash</string>
+    <string name="note_undo">Undo</string>
+    <string name="note_restored">Note restored</string>
+    <string name="note_trashed_open">Restore this note to edit it.</string>
+    <string name="note_copy_suffix">" (copy)"</string>
+
+    <!-- Note editor -->
+    <string name="editor_title_hint">Title</string>
+    <string name="editor_body_hint">Start writing…</string>
+    <string name="editor_preview_empty">Nothing to preview yet.</string>
+    <string name="editor_saving">Saving…</string>
+    <string name="editor_saved">Saved</string>
+    <string name="editor_save_failed">Couldn\'t save</string>
+    <string name="editor_retry">Retry</string>
+    <string name="editor_mode_preview">Preview</string>
+    <string name="editor_mode_edit">Edit</string>
+    <string name="editor_copy_all">Copy all text</string>
+    <string name="editor_copied">Copied to clipboard</string>
+    <string name="editor_share_text">Share as text</string>
+    <string name="editor_export">Export…</string>
+    <string name="editor_duplicated">Note duplicated</string>
+    <string name="editor_trash_title">Move this note to Trash?</string>
+    <string name="editor_trash_body">You can restore it from Trash later.</string>
+    <string name="export_title">Export note</string>
+    <string name="export_pdf">PDF document (.pdf)</string>
+    <string name="export_markdown">Markdown (.md)</string>
+    <string name="export_text">Plain text (.txt)</string>
+    <string name="export_done">Exported as %1$s</string>
+    <string name="export_failed">Couldn\'t export the note as %1$s.</string>
+    <string name="fmt_bold">Bold</string>
+    <string name="fmt_italic">Italic</string>
+    <string name="fmt_strike">Strikethrough</string>
+    <string name="fmt_heading">Heading</string>
+    <string name="fmt_bullets">Bulleted list</string>
+    <string name="fmt_numbers">Numbered list</string>
+    <string name="fmt_checklist">Checklist</string>
+    <string name="fmt_indent">Indent</string>
+    <string name="fmt_outdent">Outdent</string>
+    <string name="fmt_undo">Undo</string>
+    <string name="fmt_redo">Redo</string>
+
+
+    <!-- Scanner: camera -->
+    <string name="camera_permission_title">Camera access</string>
+    <string name="camera_permission_why">Kosh uses the camera only to photograph pages you want to scan. Photos stay on this device.</string>
+    <string name="camera_permission_denied">Camera access was not allowed. You can try again, or import images from your gallery instead.</string>
+    <string name="camera_permission_blocked">Camera access is turned off for Kosh. Open Settings, choose Permissions, and allow the camera. You can also import images instead.</string>
+    <string name="camera_allow">Allow camera</string>
+    <string name="camera_try_again">Try again</string>
+    <string name="camera_open_settings">Open settings</string>
+    <string name="camera_unavailable">The camera isn\'t available right now. Close other apps that use the camera, or import images instead.</string>
+    <string name="camera_guidance">Fill the frame with the page and use good light.</string>
+    <string name="camera_shutter">Take photo</string>
+    <string name="camera_capture_failed">Couldn\'t take the photo. Please try again.</string>
+    <string name="camera_flash_on">Flash on</string>
+    <string name="camera_flash_off">Flash off</string>
+    <string name="camera_done">Done (%1$d)</string>
+
+    <!-- Scanner: page editing -->
+    <string name="editor_continue">Continue</string>
+    <string name="add_pages_camera">Scan with camera</string>
+    <string name="editor_empty_title">No pages left</string>
+    <string name="editor_empty_body">Add pages by importing images or scanning with the camera.</string>
+    <string name="editor_empty_leave">Discard this draft</string>
+    <string name="page_actions">Actions for page %1$d</string>
+    <string name="page_crop">Crop</string>
+    <string name="page_enhance">Enhance</string>
+    <string name="page_rotate_left">Rotate left</string>
+    <string name="page_rotate_right">Rotate right</string>
+    <string name="page_move_earlier">Move earlier</string>
+    <string name="page_move_later">Move later</string>
+    <string name="page_delete_title">Delete this page?</string>
+    <string name="page_delete_body">The page is removed from this scan. Your original photo is not affected.</string>
+    <string name="crop_title">Crop page</string>
+    <string name="crop_hint">Drag the four corners to the edges of the page. The page is straightened when the PDF is made.</string>
+    <string name="crop_reset">Reset</string>
+    <string name="crop_full">Full image</string>
+    <string name="crop_use_page">Use page</string>
+    <string name="crop_image_desc">Page preview</string>
+    <string name="enhance_title">Enhance page</string>
+    <string name="enhance_done">Apply</string>
+    <string name="filter_original">Original</string>
+    <string name="filter_document">Document</string>
+    <string name="filter_grayscale">Grayscale</string>
+    <string name="filter_bw">Black and white</string>
+    <string name="filter_color">Color</string>
+    <string name="filter_lighten">Lighten</string>
+    <string name="filter_vivid">Vivid</string>
+    <string name="filter_sepia">Sepia</string>
+    <string name="filter_invert">Invert</string>
+    <string name="edit_apply_all">Apply to all</string>
+    <string name="edit_page_of">Page %1$d of %2$d</string>
+    <string name="edit_more">Page options</string>
+    <string name="edit_filters">Filters</string>
+
+    <!-- Scanner: PDF export -->
+    <string name="export_screen_title">Create PDF</string>
+    <string name="export_how_title">How should the images be placed?</string>
+    <string name="export_as_pages">Images as pages</string>
+    <string name="export_as_pages_desc">Each image becomes its own PDF page, sized to the image.</string>
+    <string name="export_on_pages">Images on pages</string>
+    <string name="export_on_pages_desc">Each image is placed on a white A4 or Letter page with margins.</string>
+    <string name="export_paper">Paper size</string>
+    <string name="export_orientation">Page orientation</string>
+    <string name="export_quality">Quality</string>
+    <string name="orientation_auto">Auto</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Landscape</string>
+    <string name="quality_standard">Standard</string>
+    <string name="quality_high">High</string>
+    <string name="export_location_hint">After you tap Done, you choose where to save the PDF.</string>
+    <string name="export_done_create">Done · Create PDF</string>
+    <string name="export_creating">Creating PDF…</string>
+    <string name="export_progress">Page %1$d of %2$d</string>
+    <string name="export_failed_title">Couldn\'t create the PDF</string>
+    <string name="export_failed_body">Something went wrong while saving. Nothing was kept. You can try again.</string>
+    <string name="export_success_title">PDF created</string>
+    <string name="export_open_pdf">Open PDF</string>
+    <string name="export_scan_more">Scan more</string>
+    <string name="export_finish">Finish</string>
+    <string name="rename_scan_failed">Couldn\'t rename this file. Try a different name.</string>
+    <string name="recent_forget">Remove from list</string>
+    <string name="settings_scanning">Scanning</string>
+    <string name="settings_default_filter">Default enhancement for new pages</string>
+    <string name="settings_default_paper">Default paper size</string>
+    <string name="settings_default_quality">Default PDF quality</string>
+
+    <!-- Reader: bookmarks, annotations, display -->
+    <string name="panel_open">Bookmarks and annotations</string>
+    <string name="panel_bookmarks">Bookmarks (%1$d)</string>
+    <string name="panel_annotations">Annotations (%1$d)</string>
+    <string name="bookmark_add_here">Bookmark this page</string>
+    <string name="bookmark_remove_here">Remove bookmark from this page</string>
+    <string name="bookmark_add_page">Bookmark page %1$d</string>
+    <string name="bookmark_exists">Page %1$d is already bookmarked</string>
+    <string name="bookmark_add_title">Bookmark page %1$d</string>
+    <string name="bookmark_label_optional">Label (optional)</string>
+    <string name="bookmark_save">Save</string>
+    <string name="bookmark_delete">Delete bookmark for page %1$d</string>
+    <string name="bookmark_removed">Bookmark on page %1$d removed</string>
+    <string name="bookmark_failed">Couldn\'t save the bookmark.</string>
+    <string name="bookmarks_empty">No bookmarks yet. Bookmark a page to come back to it later.</string>
+    <string name="annotations_note">Annotations are stored on this device and the original PDF is never changed. Export an annotated copy to share them.</string>
+    <string name="annotations_empty">No annotations yet.</string>
+    <string name="annotation_delete">Delete %2$s on page %1$d</string>
+    <string name="annotation_failed">Couldn\'t save that change.</string>
+    <string name="annotate_start">Annotate</string>
+    <string name="annotate_title">Annotate</string>
+    <string name="annotate_done">Done</string>
+    <string name="annotate_undo">Undo</string>
+    <string name="annotate_erase_hint">Tap a stroke or note to delete it. Use two fingers to scroll and zoom.</string>
+    <string name="annotate_note_hint">Tap the page where the note should go.</string>
+    <string name="tool_pen">Pen</string>
+    <string name="tool_highlighter">Highlighter</string>
+    <string name="tool_note">Note</string>
+    <string name="tool_eraser">Erase</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_red">Red</string>
+    <string name="color_black">Black</string>
+    <string name="width_thin">Thin</string>
+    <string name="width_medium">Medium</string>
+    <string name="width_thick">Thick</string>
+    <string name="note_dialog_title">Add note</string>
+    <string name="note_dialog_label">Note text</string>
+    <string name="annotated_export_menu">Export annotated copy</string>
+    <string name="annotated_export_title">Export annotated copy</string>
+    <string name="annotated_export_body">This creates a new PDF with your annotations drawn on the pages. The original is not changed. In the copy, pages are images, so text can\'t be selected or searched.</string>
+    <string name="annotated_export_choose">Choose where to save</string>
+    <string name="annotated_exporting">Creating annotated copy…</string>
+    <string name="annotated_exported">Annotated copy saved.</string>
+    <string name="annotated_export_failed">Couldn\'t create the annotated copy.</string>
+    <string name="display_title">Display settings</string>
+    <string name="display_theme">Reading theme</string>
+    <string name="display_invert">Invert page colors</string>
+    <string name="display_invert_hint">Light text on a dark page, for night reading. The file is not changed.</string>
+    <string name="display_layout">Page layout</string>
+    <string name="layout_continuous">Continuous scroll</string>
+    <string name="layout_single">One page at a time</string>
+    <string name="autoscroll_title">Auto-scroll</string>
+    <string name="autoscroll_speed">Speed: %1$.1f×</string>
+    <string name="autoscroll_hint">Touch the screen to pause. It stops at the end of the document.</string>
+    <string name="autoscroll_start">Start</string>
+    <string name="autoscroll_stop">Stop auto-scroll</string>
+    <string name="autoscroll_pause">Pause auto-scroll</string>
+    <string name="reader_print">Print</string>
+    <string name="reader_rotate">Rotate view</string>
+    <string name="print_failed">Couldn\'t start printing.</string>
+    <string name="info_bookmarks">Bookmarks</string>
+    <string name="info_annotations">Annotations</string>
+
+
+    <!-- Privacy policy -->
+    <string name="privacy_title">Privacy policy</string>
+    <string name="privacy_updated">Last updated: October 2026</string>
+    <string name="privacy_intro">Kosh is a private, offline app for scanning, reading and organising documents and notes. This policy explains what the app does with your information. In short: your documents stay on your device.</string>
+    <string name="privacy_h_collect">What Kosh collects</string>
+    <string name="privacy_b_collect">Kosh does not collect, upload or sell any personal information. It has no account, no analytics, no advertising and no tracking. The app does not ask for the internet permission, so it cannot send your files or notes anywhere.</string>
+    <string name="privacy_h_storage">What is stored on your device</string>
+    <string name="privacy_b_storage">Scanner: photos you take or import are kept in the app\'s private storage as temporary drafts until you create a PDF or discard them. Finished PDFs are saved where you choose, and a list of recent scans is kept. Reader: your reading position, bookmarks and annotations are stored on the device; the original PDF is never changed. Notes: your notes and any images you attach are stored in the app\'s private storage. Settings: your theme and tab preferences.</string>
+    <string name="privacy_h_permissions">Permissions</string>
+    <string name="privacy_b_permissions">Camera: used only when you open the scanner camera, to photograph pages. All files access (Android 11 and newer) or storage read access (older versions): used only to list and open the PDF files on your device in the Home tab. You can refuse these and still use the file picker to open a single PDF. You can turn either permission off in your phone\'s settings at any time.</string>
+    <string name="privacy_h_sharing">Sharing and exporting</string>
+    <string name="privacy_b_sharing">Kosh only shares or exports something when you choose Share, Export or Print. Files you share go to the app you pick in the Android share sheet, and that app\'s own privacy policy applies from then on. Exported files are saved in the location you select.</string>
+    <string name="privacy_h_children">Children</string>
+    <string name="privacy_b_children">Kosh does not knowingly collect any information from anyone, including children.</string>
+    <string name="privacy_h_control">Your control</string>
+    <string name="privacy_b_control">You can delete scan drafts from the Scanner tab, delete or remove any PDF, note, bookmark or annotation inside the app, and remove everything Kosh stores by clearing its storage or uninstalling it. PDFs and exports you saved elsewhere are not removed automatically.</string>
+    <string name="privacy_h_changes">Changes to this policy</string>
+    <string name="privacy_b_changes">If the app ever changes how it handles information, this policy will be updated in the app before the change takes effect.</string>
+
+    <!-- Tabs: scanner, notes, pdf -->
+    <string name="scanner_tab_scan">Scan</string>
+    <string name="scanner_tab_edit">Edit</string>
+    <string name="edit_empty_title">No photos yet</string>
+    <string name="edit_empty_body">Scan with the camera or import images, then edit them here before saving a PDF.</string>
+    <string name="edit_save_pdf">Save as PDF</string>
+    <string name="edit_clear_all">Clear all</string>
+    <string name="edit_clear_title">Remove all photos?</string>
+    <string name="edit_clear_body">All photos in this scan are removed. Your original photos are not affected.</string>
+    <string name="edit_add_more">Add photos</string>
+    <string name="photo_rotate">Rotate</string>
+    <string name="photo_crop">Crop</string>
+    <string name="photo_delete">Delete</string>
+    <string name="photo_more">More</string>
+    <string name="photo_actions_desc">%1$s, photo %2$d</string>
+    <string name="scan_settings_title">Scan settings</string>
+    <string name="scan_settings_hint">These apply to new scans.</string>
+    <string name="scan_clear_drafts_title">Unfinished scans</string>
+    <string name="pdf_preview_desc">First page of %1$s</string>
+    <string name="notes_add_image">Add image</string>
+    <string name="notes_images_title">Images</string>
+    <string name="notes_images_hint">Images are included when you export or share as PDF. They are not part of text or Markdown exports.</string>
+    <string name="notes_image_remove_title">Remove this image?</string>
+    <string name="notes_image_remove_body">The image is removed from this note.</string>
+    <string name="notes_image_desc">Image %1$d of the note</string>
+    <string name="notes_image_failed">Some images couldn\'t be added.</string>
+    <string name="notes_share_pdf">Share as PDF</string>
+    <string name="notes_share_pdf_failed">Couldn\'t prepare the PDF to share.</string>
+
+    <plurals name="import_added">
+        <item quantity="one">Added %d page</item>
+        <item quantity="other">Added %d pages</item>
+    </plurals>
+    <plurals name="import_some_failed">
+        <item quantity="one">%d image couldn\'t be imported.</item>
+        <item quantity="other">%d images couldn\'t be imported.</item>
+    </plurals>
+    <plurals name="page_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+</resources>

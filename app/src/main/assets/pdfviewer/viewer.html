@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Kosh PDF viewer</title>
+<link rel="stylesheet" href="web/pdf_viewer.css">
+<style>
+  html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; -webkit-tap-highlight-color: transparent; }
+  #viewerContainer { position: absolute; inset: 0; overflow: auto; touch-action: pan-x pan-y; box-sizing: border-box; }
+  #viewerContainer.snap-y { scroll-snap-type: y mandatory; }
+  #viewerContainer.snap-x { scroll-snap-type: x mandatory; }
+  .snap-y .page, .snap-x .page { scroll-snap-align: center; }
+  .pdfViewer .page { margin: 6px auto; }
+  .pdfViewer.scrollHorizontal .page { margin: auto 6px; }
+  .kosh-hl-layer { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+  .kosh-hl { position: absolute; border-radius: 2px; mix-blend-mode: multiply; }
+  .kosh-hl.pulse { animation: koshPulse 1.2s ease-out 2; }
+  @keyframes koshPulse { 0% { outline: 3px solid rgba(31,95,224,.9); } 100% { outline: 3px solid rgba(31,95,224,0); } }
+  #viewerContainer.doodling { touch-action: none; user-select: none; -webkit-user-select: none; }
+  .kosh-doodle-layer { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; }
+  .textLayer ::selection { background: rgba(31, 95, 224, .35); }
+</style>
+<script src="polyfill.js"></script>
+<script src="jwi_interface.js"></script>
+<script src="quad_math.js"></script>
+</head>
+<body>
+<div id="viewerContainer"><div id="viewer" class="pdfViewer"></div></div>
+<script type="module" src="viewer_app.js"></script>
+<script src="helper_methods.js"></script>
+<script src="doodle.js"></script>
+<script src="helper_main.js"></script>
+</body>
+</html>
