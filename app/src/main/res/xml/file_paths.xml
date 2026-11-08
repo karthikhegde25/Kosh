@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="shared_storage" path="." />
+    <!-- PDFs prepared for sharing from a note; the folder is emptied before each new share. -->
+    <cache-path name="shared_notes" path="shared_notes/" />
+    <!-- Word, Excel and PowerPoint files converted to PDF for viewing. -->
+    <cache-path name="office_views" path="office/" />
+</paths>
